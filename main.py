@@ -166,7 +166,7 @@ mqttc = paho.Client()
 mqttc.on_connect = on_connect
 mqttc.on_message = on_message
 
-awshost = "a23hoiwteehz89.iot.eu-central-1.amazonaws.com"
+awshost = "awshost"
 awsport = 8883
 clientId = "OTELLO"
 thingName = "Bitirme"
